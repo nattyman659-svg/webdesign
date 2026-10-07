@@ -1,0 +1,104 @@
+body {
+    background-color: #0f172a;
+    padding:40px;
+
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background-color:#1e293b;
+    border:2px;
+    border-radius: 10px;
+width: auto;
+height: auto;
+padding: 10%;
+box-shadow: inset;
+color: #f8fafc;
+}
+
+.header {
+    font-family: sanserif;
+    font-size: 30px;
+    color: antiquewhite;
+text-align: center;
+height: auto;
+
+}
+#countedNo{
+    font-size: 40px;
+    color: antiquewhite;
+}
+
+
+#addButton{
+  border-radius: 50%;
+  font-size: 28px;
+  box-shadow: inset;
+  color: #f8fafc;
+  background-color: #0f172a;
+transition: background-color 0.2s ease, transform 0.15s ease;
+  cursor: pointer;
+}
+
+
+#addButton:hover{
+  background-color: #0283c4);
+  transform: translateY(-2px);
+}
+
+
+#addButton:hover:active {
+  background-color: #0284c7;
+transform: scale(0.95);
+}
+
+
+#resetButton{
+    border-radius: 8px;
+  font-size: 26px;
+  box-shadow: inset;
+  color: #f8fafc;
+  background-color: #0f172a;
+transition: background-color 0.2s ease, transform 0.15s ease;
+  cursor: pointer;
+}
+
+
+#resetButton:hover{
+  background-color: #0284c7;
+    transform: translateY(-2px);
+}
+
+
+#resetButton:hover:active {
+  background-color: #0284c7;
+transform: scale(0.95);
+}
+
+
+#minusButton{
+  border-radius: 50%;
+  font-size: 30px;
+  box-shadow: inset;
+  color: #f8fafc;
+  background-color: #0f172a;
+
+
+}
+
+
+#minusButton:hover{
+  background-color: #0284c7;
+  transform: translateY(-2px);
+}
+
+
+#minusButton:hover:active {
+  background-color: #0284c7;
+transform: scale(0.95);
+}
